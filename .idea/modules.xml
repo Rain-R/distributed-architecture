@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/distributed-architecture.iml" filepath="$PROJECT_DIR$/distributed-architecture.iml" />
+      <module fileurl="file://$PROJECT_DIR$/io-model/io-model.iml" filepath="$PROJECT_DIR$/io-model/io-model.iml" />
+      <module fileurl="file://$PROJECT_DIR$/rpc-client/rpc-client.iml" filepath="$PROJECT_DIR$/rpc-client/rpc-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/rpc-server/rpc-server.iml" filepath="$PROJECT_DIR$/rpc-server/rpc-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/rpc-server/rpc-server-api/rpc-server-api.iml" filepath="$PROJECT_DIR$/rpc-server/rpc-server-api/rpc-server-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/rpc-server/rpc-server-provider/rpc-server-provider.iml" filepath="$PROJECT_DIR$/rpc-server/rpc-server-provider/rpc-server-provider.iml" />
+    </modules>
+  </component>
+</project>
