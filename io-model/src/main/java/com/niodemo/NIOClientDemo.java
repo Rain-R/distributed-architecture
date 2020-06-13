@@ -36,14 +36,15 @@ public class NIOClientDemo {
 
                     SelectionKey key = iterator.next();
                     iterator.remove();
-                    SocketChannel client = (SocketChannel) key.channel();
                     if (key.isReadable()){
-                        ByteBuffer buffer = ByteBuffer.allocate(1024);
-                        client.read(buffer);
-                        buffer.flip();
-                        System.out.println(buffer.toString());
-                        socketChannel.write(ByteBuffer.wrap("123456".getBytes()));
-                        key.interestOps(SelectionKey.OP_READ);
+//                        SocketChannel client = (SocketChannel) key.channel();
+//                        ByteBuffer buffer = ByteBuffer.allocate(1024);
+//                        client.read(buffer);
+//                        buffer.flip();
+//                        System.out.println(buffer.toString());
+//                        socketChannel.write(ByteBuffer.wrap("123456".getBytes()));
+//                        key.interestOps(SelectionKey.OP_READ);
+                        handleRead(key);
                     }
                 }
                 TimeUnit.SECONDS.sleep(5);
@@ -52,5 +53,14 @@ public class NIOClientDemo {
         } catch (Exception e) {
             e.printStackTrace();
         }
+    }
+    public static void handleRead(SelectionKey key ) throws IOException {
+        SocketChannel client = (SocketChannel) key.channel();
+        ByteBuffer buffer = ByteBuffer.allocate(1024);
+        client.read(buffer);
+        System.out.println( "client receive msg: "+new String(buffer.array()));
+        client.write(ByteBuffer.wrap("123456".getBytes()));
+        key.interestOps(SelectionKey.OP_READ);
+
     }
 }

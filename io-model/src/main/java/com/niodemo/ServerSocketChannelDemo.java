@@ -31,11 +31,9 @@ public class ServerSocketChannelDemo {
             selector=Selector.open();
             //将目标网络连接先注册到系统调用 select/epoll 上
             server.register(selector, SelectionKey.OP_ACCEPT);
-            while (true) {
-                selector.select();
+            while (  selector.select()>0) {
                 Iterator<SelectionKey> keys = selector.selectedKeys().iterator();
                 while (keys.hasNext()) {
-
                     SelectionKey key = keys.next();
                     keys.remove();
                    if (key.isAcceptable()){
@@ -49,9 +47,23 @@ public class ServerSocketChannelDemo {
                        SocketChannel client=(SocketChannel) key.channel();
 
                        ByteBuffer buffer=ByteBuffer.allocate(1024);
-                       client.read(buffer);
-                       System.out.println("收到客户端端的数据:"+new String(buffer.array()));
-                       client.write(ByteBuffer.wrap("我是服务器:".getBytes()));
+                       try {
+                           int count= client.read(buffer);
+                           //需要判断客户端是否关闭了连接 并且处理
+                           while(count<0){
+                               client.close();
+                           }
+                           if(count==-1){
+                               client.close();
+                           }else{
+                               System.out.println("收到客户端端的数据:"+new String(buffer.array()));
+                               //继续向客户端发送数据
+                               client.write(ByteBuffer.wrap("我是服务器:".getBytes()));
+                           }
+                       } catch (IOException e) {
+                          client.close();
+                       }
+
 
                    }
 
