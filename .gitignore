@@ -25,4 +25,4 @@ target
 
 # git
 *.orig
-*.workspace
+*.workspace.xml
