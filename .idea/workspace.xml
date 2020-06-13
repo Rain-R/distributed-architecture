@@ -1,18 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8f2b8d21-6ed7-41f5-ae6c-47237eaea506" name="Default" comment=".">
+    <list default="true" id="8f2b8d21-6ed7-41f5-ae6c-47237eaea506" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/io-model/target/classes/com/niodemo/NIOClient$ClientRead.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/io-model/target/classes/com/niodemo/NIOClient$ClientWrite.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/io-model/target/classes/com/niodemo/NIOClient.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/io-model/target/classes/com/niodemo/NIOClientDemo.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/io-model/target/classes/com/niodemo/NewIOClient.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/io-model/target/classes/com/niodemo/ServerSocketChannelDemo.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/io-model/target/io-model-1.0-SNAPSHOT.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/io-model/target/maven-archiver/pom.properties" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/io-model/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/io-model/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/distributed-architecture.iml" afterPath="$PROJECT_DIR$/distributed-architecture.iml" />
+      <change beforePath="$PROJECT_DIR$/io-model/io-model.iml" afterPath="" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -67,8 +59,8 @@
       <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="154">
+              <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -114,6 +106,7 @@
         <option value="$PROJECT_DIR$/io-model/src/main/java/com/niodemo/NIOClientDemo.java" />
         <option value="$PROJECT_DIR$/io-model/src/main/java/com/niodemo/NewIOClient.java" />
         <option value="$PROJECT_DIR$/io-model/src/main/java/com/niodemo/ServerSocketChannelDemo.java" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -408,7 +401,7 @@
       <workItem from="1591892662167" duration="9000" />
       <workItem from="1591892927612" duration="3132000" />
       <workItem from="1591925672550" duration="6263000" />
-      <workItem from="1592025272366" duration="4845000" />
+      <workItem from="1592025272366" duration="5138000" />
     </task>
     <task id="LOCAL-00001" summary=".">
       <created>1592029935975</created>
@@ -431,11 +424,32 @@
       <option name="project" value="LOCAL" />
       <updated>1592030431218</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary=".">
+      <created>1592030455264</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1592030455264</updated>
+    </task>
+    <task id="LOCAL-00005" summary=".">
+      <created>1592030500126</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1592030500126</updated>
+    </task>
+    <task id="LOCAL-00006" summary=".">
+      <created>1592030600962</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1592030600962</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14249000" />
+    <option name="totallyTimeSpent" value="14542000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
@@ -535,9 +549,9 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="." />
     <MESSAGE value="NIO新增 判断客户端关闭的设置" />
-    <option name="LAST_COMMIT_MESSAGE" value="NIO新增 判断客户端关闭的设置" />
+    <MESSAGE value="." />
+    <option name="LAST_COMMIT_MESSAGE" value="." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -824,8 +838,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="154">
+          <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="5" />
           <folding />
         </state>
       </provider>
@@ -847,7 +861,7 @@
       </state>
       <state key="FacetStructureConfigurable.UI">
         <settings>
-          <last-edited>No facets are configured</last-edited>
+          <last-edited>Spring</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -882,7 +896,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>distributed-architecture</last-edited>
+          <last-edited>io-model</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -907,6 +921,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
+          <last-edited>Maven: junit:junit:4.11</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
