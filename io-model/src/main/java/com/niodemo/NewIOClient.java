@@ -23,8 +23,10 @@ public class NewIOClient {
         try {
             selector=Selector.open();
             SocketChannel socketChannel=SocketChannel.open();
+
             socketChannel.configureBlocking(false);
             socketChannel.connect(new InetSocketAddress("localhost",8080));
+
             socketChannel.register(selector, SelectionKey.OP_CONNECT); //连接事件
             while(true){
                 selector.select();
