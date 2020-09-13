@@ -7,18 +7,36 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="io-model" />
+        <module name="order-api" />
+        <module name="order-provider" />
+        <module name="order-server" />
+        <module name="redission-spring-boot-starter" />
         <module name="rpc-client" />
         <module name="rpc-server-api" />
         <module name="rpc-server-provider" />
+        <module name="springboot-autoconfig" />
+        <module name="springboot-spi-demo" />
+        <module name="user-service" />
+        <module name="zookeeper-spring-boot-starter" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="distributed-architecture" target="1.5" />
       <module name="io-model" target="1.7" />
+      <module name="order-api" target="1.5" />
+      <module name="order-provider" target="1.8" />
+      <module name="order-server" target="1.5" />
+      <module name="order-service" target="1.5" />
+      <module name="rabbitmq-samples" target="1.5" />
+      <module name="redission-spring-boot-starter" target="1.5" />
       <module name="rpc-client" target="1.7" />
       <module name="rpc-server" target="1.7" />
       <module name="rpc-server-api" target="1.7" />
       <module name="rpc-server-provider" target="1.7" />
+      <module name="springboot-autoconfig" target="1.8" />
+      <module name="springboot-spi-demo" target="1.8" />
+      <module name="user-service" target="1.8" />
+      <module name="zookeeper-spring-boot-starter" target="1.5" />
     </bytecodeTargetLevel>
   </component>
 </project>

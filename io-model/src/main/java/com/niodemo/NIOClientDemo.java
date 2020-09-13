@@ -33,17 +33,9 @@ public class NIOClientDemo {
             while ( selector.select()>0) {
                 Iterator<SelectionKey> iterator = selector.selectedKeys().iterator();
                 while (iterator.hasNext()) {
-
                     SelectionKey key = iterator.next();
                     iterator.remove();
                     if (key.isReadable()){
-//                        SocketChannel client = (SocketChannel) key.channel();
-//                        ByteBuffer buffer = ByteBuffer.allocate(1024);
-//                        client.read(buffer);
-//                        buffer.flip();
-//                        System.out.println(buffer.toString());
-//                        socketChannel.write(ByteBuffer.wrap("123456".getBytes()));
-//                        key.interestOps(SelectionKey.OP_READ);
                         handleRead(key);
                     }
                 }

@@ -4,10 +4,18 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/distributed-architecture.iml" filepath="$PROJECT_DIR$/distributed-architecture.iml" />
       <module fileurl="file://$PROJECT_DIR$/io-model/io-model.iml" filepath="$PROJECT_DIR$/io-model/io-model.iml" />
+      <module fileurl="file://$PROJECT_DIR$/order-service/order-api/order-api.iml" filepath="$PROJECT_DIR$/order-service/order-api/order-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/order-service/order-provider/order-provider.iml" filepath="$PROJECT_DIR$/order-service/order-provider/order-provider.iml" />
+      <module fileurl="file://$PROJECT_DIR$/order-service/order-service.iml" filepath="$PROJECT_DIR$/order-service/order-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/redission-spring-boot-starter/redission-spring-boot-starter.iml" filepath="$PROJECT_DIR$/redission-spring-boot-starter/redission-spring-boot-starter.iml" />
       <module fileurl="file://$PROJECT_DIR$/rpc-client/rpc-client.iml" filepath="$PROJECT_DIR$/rpc-client/rpc-client.iml" />
       <module fileurl="file://$PROJECT_DIR$/rpc-server/rpc-server.iml" filepath="$PROJECT_DIR$/rpc-server/rpc-server.iml" />
       <module fileurl="file://$PROJECT_DIR$/rpc-server/rpc-server-api/rpc-server-api.iml" filepath="$PROJECT_DIR$/rpc-server/rpc-server-api/rpc-server-api.iml" />
       <module fileurl="file://$PROJECT_DIR$/rpc-server/rpc-server-provider/rpc-server-provider.iml" filepath="$PROJECT_DIR$/rpc-server/rpc-server-provider/rpc-server-provider.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-autoconfig/springboot-autoconfig.iml" filepath="$PROJECT_DIR$/springboot-autoconfig/springboot-autoconfig.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-spi-demo/springboot-spi-demo.iml" filepath="$PROJECT_DIR$/springboot-spi-demo/springboot-spi-demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/user-service/user-service.iml" filepath="$PROJECT_DIR$/user-service/user-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/zookeeper-spring-boot-starter/zookeeper-spring-boot-starter.iml" filepath="$PROJECT_DIR$/zookeeper-spring-boot-starter/zookeeper-spring-boot-starter.iml" />
     </modules>
   </component>
 </project>

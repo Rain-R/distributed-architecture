@@ -4,6 +4,12 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/order-service/pom.xml" />
+        <option value="$PROJECT_DIR$/user-service/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-spi-demo/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-autoconfig/pom.xml" />
+        <option value="$PROJECT_DIR$/redission-spring-boot-starter/pom.xml" />
+        <option value="$PROJECT_DIR$/zookeeper-spring-boot-starter/pom.xml" />
       </list>
     </option>
   </component>

@@ -46,7 +46,7 @@ public class NewIOClient {
             e.printStackTrace();
         }
     }
-    private static void handleConnect(SelectionKey selectionKey) throws IOException {
+     static void handleConnect(SelectionKey selectionKey) throws IOException {
         SocketChannel socketChannel=(SocketChannel)selectionKey.channel();
         if(socketChannel.isConnectionPending()){
             //
@@ -57,7 +57,7 @@ public class NewIOClient {
         socketChannel.register(selector,SelectionKey.OP_READ); //
     }
 
-    private static void handleRead(SelectionKey selectionKey) throws IOException {
+     static void handleRead(SelectionKey selectionKey) throws IOException {
         SocketChannel socketChannel=(SocketChannel)selectionKey.channel();
         //TODO
         ByteBuffer byteBuffer=ByteBuffer.allocate(1024);

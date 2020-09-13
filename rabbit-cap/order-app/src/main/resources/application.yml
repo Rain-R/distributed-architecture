@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: order-app
+  datasource:
+    url: jdbc:mysql://localhost:3306/rabbit-cap?useUnicode=true&characterEncoding=utf8&autoReconnect=true&rewriteBatchedStatements=TRUE&serverTimezone=UTC
+    driver-class-name: com.mysql.jdbc.Driver
+    username: root
+    password: 123456
+
+  rabbitmq:
+    host: localhost
+    username: guest
+    password: guest
+    virtual-host: /
+    publisher-returns: true
+    publisher-confirm-type: simple

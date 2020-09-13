@@ -5,5 +5,7 @@
     <file url="file://$PROJECT_DIR$/rpc-server" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/rpc-server/rpc-server-api" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/rpc-server/rpc-server-provider" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot-autoconfig" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot-spi-demo" charset="UTF-8" />
   </component>
 </project>

@@ -1,0 +1,21 @@
+{
+
+  "properties": [
+    {
+     "name": "gp.zookeeper.connectString",
+      "type": "java.lang.String",
+      "description": "zookeeper连接地址",
+      "defaultValue": "localhost:2181"
+
+  },
+    {
+      "name": "gp.zookeeper.sessionTimeout",
+      "type": "java.lang.Integer",
+      "description": "zookeeper超时时间.",
+      "defaultValue": "5000"
+    }
+
+  ]
+
+
+}

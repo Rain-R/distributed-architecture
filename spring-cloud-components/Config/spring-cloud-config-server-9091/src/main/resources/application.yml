@@ -1,0 +1,32 @@
+spring:
+  application:
+    name: config
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://gitee.com/xiaozhuanggege/spring-cloud-config-server.git
+          username: xiaozhaunggege
+          password: wz1234567890
+    bus:
+      enabled: true
+      trace:
+        enabled: true
+      refresh:
+        enabled: true
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: guest
+    password: guest
+server:
+  port: 9091
+eureka:
+  client:
+    service-url:
+       defaultZone: http://localhost:9090/eureka
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
